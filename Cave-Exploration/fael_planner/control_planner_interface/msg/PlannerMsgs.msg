@@ -1,5 +1,0 @@
-
-int32 current_iteration_id
-int32 current_goal_id   
-bool is_current_goal_scanned
-bool is_exploration_finished
