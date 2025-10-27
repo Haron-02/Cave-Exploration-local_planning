@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<launch>
+    <arg name="odometry"/>
+    <node pkg="visualization_tools" type="exploration_data" name="exploration_data" output="log">
+        <remap from="/explorer_start" to="/exploration_data/explorer_start"/>
+        <remap from="/explorer_finish" to="/exploration_data/explorer_finish"/>
+        <remap from="/odometry" to="$(arg odometry)"/>
+        <remap from="/SDFMap_frontier_statistics" to="/topo_planner/SDFMap_frontier_statistics"/>
+        <remap from="/iteration_time" to="/planning/iteration_time"/>
+
+        <param name="map_area" value="25000"/>
+
+        <param name="max_time" value="2000000000.0"/>
+
+    </node>
+
+    <!-- <node pkg="visualization_tools" type="realTimePlot.py" name="realTimePlot" output="log" respawn="true"/> -->
+</launch>
+

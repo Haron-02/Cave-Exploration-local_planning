@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <arg name="bagfile_path"/>
+
+    <node pkg="rosbag" type="record" name="record_lidar_raw_data" output="screen" args="
+
+    /uav26/djiros/imu
+    /livox/lidar
+
+    -o $(arg bagfile_path)"/>
+
+</launch>
