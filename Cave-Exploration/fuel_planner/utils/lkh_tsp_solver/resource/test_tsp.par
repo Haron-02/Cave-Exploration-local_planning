@@ -1,4 +1,0 @@
-PROBLEM_FILE = /home/dreamcatcher/Cave_Exp/Cave_Exp_ws/src/Cave-Exploration/fuel_planner/utils/lkh_tsp_solver/resource/new_tsp.tsp
-GAIN23 = NO
-OUTPUT_TOUR_FILE = /home/dreamcatcher/Cave_Exp/Cave_Exp_ws/src/Cave-Exploration/fuel_planner/utils/lkh_tsp_solver/resource/test_new_tsp.txt
-RUNS = 1

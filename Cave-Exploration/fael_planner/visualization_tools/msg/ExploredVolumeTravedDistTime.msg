@@ -1,5 +1,0 @@
-Header header
-float64 exploredPlaneVolume
-float64 exploredVolume
-float64 travedDist
-float64 timeConsumed
